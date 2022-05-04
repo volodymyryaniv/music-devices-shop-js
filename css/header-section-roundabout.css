@@ -1,0 +1,95 @@
+section.first-section {
+  margin-top: 50px;
+}
+section .services {
+  position: relative;
+  margin-bottom: 50px;
+}
+
+section div .item {
+  max-width: 325px;
+  margin: 15px auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+section div .item .item__icon {
+  max-width: 70px;
+  min-height: 70px;
+  background-color: var(--background-services-color);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section div .item .item__icon img {
+  display: block;
+  width: 60%;
+}
+section div .item .item__text {
+  text-align: left;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+section div .item__text h3 {
+  font-family: var(--additional-font);
+  font-size: 1.3rem;
+  font-weight: 700;
+  line-height: 15px;
+  color: #6c6c6c;
+}
+section div .item__text p {
+  color: #6c6c6c;
+  line-height: 15px;
+}
+.services__type {
+  display: flex;
+  justify-content: space-between;
+}
+
+.services__button-next span img {
+  width: 25px;
+  position: absolute;
+  top: 30%;
+  right: 25px;
+}
+.services__button-prev span img {
+  width: 25px;
+  position: absolute;
+  top: 30%;
+  left: 25px;
+}
+.services__button-prev span:hover,
+.services__button-next span:hover {
+  cursor: pointer;
+}
+ul.services__indicators {
+  margin: 35px auto 60px;
+  display: flex;
+  justify-content: space-between;
+  width: 170px;
+}
+ul.services__indicators li {
+  list-style: none;
+  width: 10px;
+  height: 10px;
+  background: var(--button-black-color);
+  opacity: 0.3;
+  border-radius: 50%;
+}
+ul.services__indicators li:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+ul.services__indicators li.active {
+  opacity: 0.6;
+}
+
+@media (min-width: 1280px) {
+  .services__button-next span img {
+    right: -15px;
+  }
+  .services__button-prev span img {
+    left: -15px;
+  }
+}

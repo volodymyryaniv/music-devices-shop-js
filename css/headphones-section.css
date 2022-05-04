@@ -1,0 +1,196 @@
+.headphones_text {
+  text-align: center;
+  font-size: 60px;
+  font-family: Heebo, sans-serif;
+  font-weight: 900;
+}
+
+.logo_svg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.headphones_p {
+  text-align: center;
+  font-size: 20px;
+  font-family: Heebo, sans-serif;
+  font-weight: 300;
+  padding-top: 20px;
+}
+
+.span_div {
+  text-align: center;
+}
+.span_headphones {
+  margin: 0 10px;
+  font-size: 40px;
+  color: orange;
+  border-radius: 3px;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  line-height: 30px;
+}
+
+.span_headphones:hover {
+  background: #222;
+  color: white;
+  transition: 0.5s linear;
+}
+
+.section_headphones {
+  margin-left: auto;
+  margin-right: auto;
+  width: 66%;
+  height: 400px;
+  display: flex;
+  overflow-x: auto;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.section_headphones::-webkit-scrollbar {
+  display: none;
+}
+
+section .product {
+  min-width: 15%;
+  height: 100%;
+  position: relative;
+  left: 0;
+  transition: 0.5s;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+}
+.headphones_carousel {
+  display: flex;
+  text-align: center;
+}
+
+.headphones_bottom {
+  text-decoration: none;
+  text-align: center;
+  font-size: 15px;
+  font-family: Heebo, sans-serif;
+  font-weight: 100;
+  background-color: #eb5112;
+  color: #000;
+  border-radius: 0;
+  padding-right: 8px;
+  padding-left: 8px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.name {
+  color: #eb5112;
+  font-size: 20px;
+  font-family: serif;
+}
+
+.samp {
+  font-size: 20px;
+  font-family: serif;
+}
+
+.price {
+  padding-top: 15px;
+  font-size: 20px;
+  margin: 0 auto;
+  padding-bottom: 20px;
+  font-weight: 900;
+}
+
+.best_price {
+  text-align: center;
+  font-size: 60px;
+  font-family: Heebo, sans-serif;
+  font-weight: 900;
+}
+
+.type_of_product {
+  position: absolute;
+  text-align: center;
+  padding-top: 35px;
+  padding-left: 70px;
+  font-family: Heebo, sans-serif;
+  font-weight: 900;
+  font-size: 35px;
+  color: white;
+}
+
+.countdown_headphones {
+  background-image: url(../img/apple_headphones.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+}
+
+.bg_image {
+  padding-top: 100px;
+}
+
+.brand_apple {
+  padding-top: 200px;
+  padding-left: 70px;
+  font-family: Heebo, sans-serif;
+  font-weight: 1000;
+  font-size: 60px;
+  color: #800000;
+  position: relative;
+}
+
+.price_apple_last {
+  text-decoration: line-through;
+  padding-top: 50px;
+  padding-left: 70px;
+  padding-right: 0px;
+  font-family: Heebo, sans-serif;
+  font-weight: 1000;
+  font-size: 60px;
+  color: white;
+  position: relative;
+}
+
+.price_apple_new {
+  margin-top: -175px;
+  padding-left: 250px;
+  font-family: Heebo, sans-serif;
+  font-weight: 1000;
+  font-size: 100px;
+  color: #800000;
+  position: relative;
+}
+
+.countdown_headphones_sale {
+  display: flex;
+  margin: 30px;
+  padding-left: 30px;
+  margin-top: -50px;
+}
+
+.countdown_sale {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  font-family: sans-serif;
+}
+
+.day,
+.hour,
+.minute,
+.second {
+  font-weight: bold;
+  font-size: 60px;
+}
+.redaout {
+  color: #800000;
+  font-size: 40px;
+  margin-top: -3px;
+}

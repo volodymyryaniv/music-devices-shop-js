@@ -1,0 +1,228 @@
+/* Navigation */
+
+div .navbar-brand img {
+  width: 114px;
+}
+
+.navbar-expand-lg {
+  justify-content: space-between;
+}
+.navbar-collapse {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+nav div.nav-socials {
+  margin: 25px 0;
+}
+nav div .navbar-nav {
+  font-size: 0.92rem;
+  font-weight: 700;
+  color: var(--nav-pages-color);
+  height: auto;
+}
+
+nav div .nav-item a img {
+  max-width: 28px;
+  border-radius: 0.4rem;
+}
+
+/* Product page */
+
+.header-item {
+  margin-bottom: 70px;
+}
+
+.container-top_card {
+  margin: auto;
+}
+
+body > main header .contacts_white {
+  background-color: var(--header-contacts-light);
+}
+
+header .contacts__item_black {
+  color: var(--default-color);
+}
+header .contacts__item_black a {
+  text-decoration: none;
+  color: var(--default-color);
+}
+header .contacts__item_black_l {
+  text-align: right;
+}
+header .contacts__item_black a:hover {
+  text-decoration: underline;
+}
+
+.banner-bg_white {
+  background-color: var(--light-text-color);
+  max-height: 183px;
+}
+body > main.product-page {
+  padding: 90px 24px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 2fr;
+  gap: 12px;
+  margin: auto;
+}
+
+body > main .img-main {
+  display: block;
+  width: 100%;
+}
+
+body > main .product__availability {
+  color: var(--in-stock-color);
+  line-height: 1.53rem;
+}
+body > main .product__name {
+  font-family: var(--additional-font);
+  font-size: 1.3rem;
+  font-weight: 700;
+  line-height: 1.94rem;
+}
+body > main .product__code {
+  font-size: 0.82rem;
+  color: var(--offer-jbl-strike-color);
+}
+body > main .product__price {
+  font-size: 1.18rem;
+  font-weight: 600;
+}
+
+body > main .product__shopping form {
+  display: flex;
+  justify-content: space-between;
+  margin: 25px 0 50px 0;
+}
+body > main .product__shopping .tabs__button {
+  color: var(--light-text-color);
+  font-size: 0.76rem;
+  text-transform: uppercase;
+  line-height: 2.35rem;
+  letter-spacing: 0.05rem;
+  background-color: var(--button-blue-color);
+  text-align: center;
+  width: 100%;
+  margin: 0 5px 0 15px;
+  border-radius: 0.2rem;
+  transition: 0.7s;
+}
+body > main .product__shopping .tabs__button:hover {
+  color: var(--light-text-color);
+  background-color: var(--contacts-links-color);
+  transition: 1.5s;
+}
+body > main .product-description__title {
+  color: var(--default-color);
+  font-size: 0.74rem;
+  font-weight: 700;
+  line-height: 0.95rem;
+  text-transform: uppercase;
+}
+-top body > main .product-description__characteristics p {
+  color: var(--default-color);
+  line-height: 1.4rem;
+  height: auto;
+}
+
+@media (min-width: 768px) {
+  body > main.product-page {
+    padding: 90px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 10px;
+  }
+  body > main > div.product-text {
+    padding: 0 24px 0 15px;
+  }
+
+  .container-top_card {
+    max-width: 957px;
+    padding: 0 24px;
+    margin: auto;
+  }
+}
+@media (min-width: 991px) {
+  .container-top_contacts {
+    max-width: 1120px;
+    padding: 0 24px;
+  }
+  .container-top_card {
+    max-width: 1200px;
+    margin: 15px 0;
+  }
+  .navbar-expand-lg {
+    padding: 15px 0;
+    margin-bottom: 35px;
+  }
+  .container-fluid {
+    max-width: 1120px;
+    margin: auto;
+    padding: 0 24px;
+  }
+  div .navbar-nav {
+    display: flex;
+    justify-content: center;
+  }
+  div .navbar-nav li {
+    padding: 0 15px;
+  }
+
+  #navbar-navigation .navbar-nav a {
+    position: relative;
+    padding: 0;
+  }
+  #navbar-navigation .navbar-nav a::after {
+    content: " ";
+    display: block;
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 3px;
+    border-radius: 0.1rem;
+    background-color: var(--button-black-color);
+    transition: width 0.2s ease-in;
+  }
+  #navbar-navigation .navbar-nav a:hover:after {
+    width: 100%;
+  }
+  .nav-socials {
+    max-width: 200px;
+  }
+  .nav-socials div.nav-item {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+  }
+
+  nav div.nav-socials a:hover {
+    max-width: 32px;
+    border: 1px solid var(--button-black-color);
+    border-radius: 0.2rem;
+    box-shadow: 0 0 2px var(--offer-jbl-color);
+    transform: scale(1.5);
+  }
+}
+@media (min-width: 1025px) {
+  header div .container-top_contacts {
+    max-width: 1120px;
+    padding: 0 24px;
+  }
+}
+@media (min-width: 1280px) {
+  .container-top_card {
+    max-width: 60%;
+  }
+  header div .container-top_contacts {
+    min-width: 1120px;
+    padding: 0;
+  }
+  .container-fluid {
+    min-width: 1120px;
+    padding: 0;
+  }
+}

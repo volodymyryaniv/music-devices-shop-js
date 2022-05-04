@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Devices Store Website</title>
+    <link rel="icon" href="img/icons/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main-style.css">
+
+</head>
+
+<body>
+
+    <header>
+
+        <!--Contacts-->
+        <div class="contactss contacts_black">
+            <div class="container-top_contacts">
+                <div class="contacts__item contacts__item_white">
+                    <span class="contacts__cellphone contacts__cellphone_black">Customer Care:</span>
+                    <a href="tel:+12345678900">+1 (234) 567 89 00</a>
+                </div>
+                <div class="contacts__item contacts__item_white contacts__item_white_l">
+                    <span class="contacts__mail contacts__mail_black">Email:</span>
+                    <a href="mailto:basside@email.com">basside@email.com</a>
+                </div>
+            </div>
+        </div>
+        <!--Navigation-->
+        <section class="banner-bg banner-bg_origin">
+            <div class="container-section">
+                <nav class="navigation">
+                    <div class="navigation-logo">
+                        <a href="product-card.html"><img width="150" src="img/logo.svg" alt="logo"></a>
+                        <div class="navigation-burger"><span></span></div>
+                    </div>
+                    <div class="navigation-wrapper">
+                        <div class="navigation-pages">
+                            <a data-goto=".navigation-way_1" href="#"
+                                class="navigations__speakers navigation__link">Speakers</a>
+                            <a data-goto=".navigation-way_2" href="#"
+                                class="navigations__news navigation__link">News</a>
+                            <a data-goto=".navigation-way_3" href="#"
+                                class="navigations__testimonials navigation__link">Testimonials</a>
+                            <a data-goto=".navigation-way_4" href="#"
+                                class="navigations__headphones navigation__link">Headphones</a>
+                        </div>
+                        <div class="navigation-social">
+                            <a href="https://www.facebook.com/" target="blank"><img src="img/icons/facebook-icon.png"
+                                    alt="facebook"></a>
+                            <a href="https://www.instagram.com/" target="blank"><img src="img/icons/insta-icon.png"
+                                    alt="instagram"></a>
+                            <a href="https://twitter.com/" target="blank"><img src="img/icons/twitter-icon.png"
+                                    alt="twitter"></a>
+                            <a href="https://www.youtube.com/" target="blank"><img src="img/icons/you-toube-icon.png"
+                                    alt="youtube"></a>
+                        </div>
+                    </div>
+                </nav>
+                <!--Main page-->
+                <div class="banner">
+                    <div class="banner__text ">
+                        <h1>Great Sound at Low Prices</h1>
+                        <p>Headphones and loudspeakers from the best brands.</p>
+                    </div>
+                    <div class="links">
+                        <a href="" class="links__about">About us</a>
+                        <a href="" class="links__shop"><span>Shop now</span></a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </header>
+    <main>
+        <!--Special offers and services section-->
+
+        <a class="cart-link open-cart add-padding" href="#"><img src="img/icons/cart-icon.png" alt="cart icon"><span
+                id="cart-badge" class="badge"></span></a>
+        <section class="first-section">
+            <div class="services container">
+                <div class="services__type">
+                </div>
+                <div class="services__button-next"><span><img src="img/icons/right-arrow.png" alt="next arrow"></span>
+                </div>
+                <div class="services__button-prev"><span><img src="img/icons/back-arrow.png" alt="prev arrow"></span>
+                </div>
+                <ul class="services__indicators">
+                    <li class="services__indicator active"></li>
+                    <li class="services__indicator"></li>
+                    <li class="services__indicator"></li>
+                    <li class="services__indicator"></li>
+                    <li class="services__indicator"></li>
+                </ul>
+            </div>
+
+            <!-- Tabs and services section -->
+
+            <div id="container-top">
+                <div class="tabs navigation-way_4">
+                    <div class="tabs__head">
+                        <div class="tabs__links">
+                            <a href="#" data-tab-name="1" class="tabs__name active">Featured</a>
+                            <a href="#" data-tab-name="2" class="tabs__name">Sale</a>
+                            <a href="#" data-tab-name="3" class="tabs__name">New</a>
+                        </div>
+                        <div class="currency-container">
+                            <span class="currency_subtitle">Show prices in:</span>
+                            <span class="currency currency_differents convert active" data-value="USD">USD</span>
+                            <span class="currency currency_differents convert" data-value="EUR">EUR</span>
+                            <span class="currency currency_differents convert" data-value="UAH">UAH</span>
+                        </div>
+                    </div>
+
+                    <div class="tabs__body">
+                        <div data-tab-content="1" id="featured" class="tabs__content active">
+                        </div>
+                        <div data-tab-content="2" id="sale" class="tabs__content">
+                        </div>
+                        <div data-tab-content="3" id="new" class="tabs__content">
+                        </div>
+                    </div>
+                </div>
+                <div class="offers-cotainer">
+                    <div class="offer-jbl">
+                        <h2>JBL Speakers</h2>
+                        <p class="offer__strike"><span>$300.00</span> $250.00</p>
+                        <p class="offer__date"> </p>
+                        <p class="offer__text">Special price on a variety of JBL loudspeakers.</p>
+                        <a class="offer__button offer__button_black" href=""><span>LEARN MORE</span></a>
+                    </div>
+                    <div class="offer-special">
+                        <p>SPECIAL OFFER</p>
+                        <h2>Headphones Sale</h2>
+                        <h2 id="112" class="offer-special__time-left"></h2>
+                        <a class="offer__button offer__button_white" href=""><span>LEARN MORE</span></a>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- MODAL CART -->
+    <section id="modal-cart" class="modal-cart">
+        <article class="modal-cart__body">
+            <div class="modal-cart__content">
+                <header class="modal-cart__header">
+                    <p class="modal-cart__title">Shopping cart</p>
+                    <a href="#" class="modal-cart__close-button close-cart"><span></span></a>
+                </header>
+                <div class="modal-cart__products-list">Products</div>
+                <div class="modal-cart__product-container">
+                    <article class="modal-cart-product">
+                        <img src="img/featured/gbl-gt.png" alt="">
+                        <p class="modal-cart-product__name">GBL-GT</p>
+                        <form action="#" method="GET">
+                            <input class="modal-cart-product__quantity" type="number" min="1" max="100"
+                                value="quantity">
+                        </form>
+                        <p class="modal-cart-product__price">$120</p>
+                        <button class="modal-cart-product__remove">x</button>
+                    </article>
+                    <p class="modal-cart-product__total-price">Total price:</p>
+                </div>
+                <form class="modal-cart__form" action="#" method="POST" enctype="multipart/form-data">
+                    <label class="modal-cart__label" for="name">Name</label>
+                    <input class="modal-cart__input" id="name" type="text" placeholder="Your name" required>
+                    <label class="modal-cart__label" for="email">Email</label>
+                    <input class="modal-cart__input" type="text" placeholder="Your email adress" required>
+                    <label class="modal-cart__label" for="phone">Phone</label>
+                    <input class="modal-cart__input" type="number" value="phone" placeholder="Your phone" required>
+                    <label class="modal-cart__label" for="comments">Comments</label>
+                    <textarea class="modal-cart__input" name="comments" id="comments" placeholder="Your comments"
+                        cols="30" rows="10"></textarea>
+                    <button class="modal-cart__order" type="submit">Order</button>
+                </form>
+            </div>
+        </article>
+    </section>
+
+    <script src="js/burger-menu-and-smoth-scroll.js"></script>
+    <script src="js/roundabout.js"></script>
+    <script src="js/tabs.js"></script>
+    <script src="js/countdown-clock-to-date.js"></script>
+    <script src="js/countdown-clock-time.js"></script>
+    <script src="js/product-way.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/modal-cart.js"></script>
+    <script src="js/airpulse-countdown.js"></script>
+</body>
+
+</html>
